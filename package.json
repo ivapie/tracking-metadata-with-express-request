@@ -1,0 +1,17 @@
+{
+  "name": "iptracking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ngrok http 5000"
+  },
+  "author": "Ivan Piedra <ipiedra@cecropiasolutions.com> (https://plus.google.com/100045045450129923111)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-ip": "^1.0.3",
+    "ngrok": "^3.1.0"
+  }
+}
